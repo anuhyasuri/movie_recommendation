@@ -11,3 +11,6 @@
     - cd src/data
     - python load.py
     - Data is stored in the folder raw_data
+- Create vector index from the movies dataset
+    - cd src/data
+    - python vector_index.py
