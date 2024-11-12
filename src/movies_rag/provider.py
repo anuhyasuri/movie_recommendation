@@ -1,7 +1,7 @@
 from llama_index.core import (StorageContext, load_index_from_storage)
 from typing import List
 import tiktoken
-from movies_rag.prompts.recommender import RecommendationPrompt
+from movies_rag.prompt.recommender import RecommendationPrompt
 import logging
 
 class RAGProvider:

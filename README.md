@@ -14,3 +14,6 @@
 - Create vector index from the movies dataset
     - cd src/data
     - python vector_index.py
+- Query vector index for movie recommendations
+    - cd src/application
+    - fastapi dev app.py
