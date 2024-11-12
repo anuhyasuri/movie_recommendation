@@ -1,8 +1,13 @@
-1. Set up virtual environment
-    a. pyenv virtualenv 3.10.12 moviegpt_venv
-    b. pyenv activate moviegpt_venv
-2. Install required packages
-    a. pip install -r requirements.txt
-3. In the src folder, run setup.py
-    a. cd src
-    b. python setup.py install
+### RAG Movie Recommender
+- Set up virtual environment
+    - pyenv virtualenv 3.10.12 moviegpt_venv
+    - pyenv activate moviegpt_venv
+- Install required packages
+    - pip install -r requirements.txt
+- In the src folder, run setup.py
+    - cd src
+    - python setup.py install
+- Load movies data
+    - cd src/data
+    - python load.py
+    - Data is stored in the folder raw_data
