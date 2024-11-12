@@ -4,7 +4,7 @@ import os
 
 def search_movies(query_text):
     provider = RAGProvider(
-        index_directory="/Users/anuhyasuri/Documents/gen_ai/Movie_GPT/src/data/vector_store",
+        index_directory="/src/data/vector_store",
         prompt= RecommendationPrompt(details=query_text)
     )
     recommendations = provider.query()
