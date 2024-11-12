@@ -17,6 +17,3 @@
 - Query vector index for movie recommendations
     - cd src/application
     - fastapi dev app.py
-
-###Sample Output
-!(https://github.com/anuhyasuri/movie_recommendation/blob/main/sample_output.jpg?raw=true)
